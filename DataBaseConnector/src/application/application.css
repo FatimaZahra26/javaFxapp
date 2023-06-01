@@ -1,0 +1,14 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.tableView .column-header-background{
+  
+}
+.button{
+	-fx-background-color:	DODGERBLUE; 
+	-fx-border-color: blue;
+	-fx-text-fill: white; 
+}
+.root{
+	-fx-background-color: CADETBLUE; 
+	 -fx-text-fill: white; 
+   
+}

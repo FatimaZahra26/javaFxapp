@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import test.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+  <ComboBox layoutX="14.0" layoutY="14.0">
+    <items>
+      <FXCollections fx:factory="observableArrayList">
+        <Car brand="Peugeot"/>
+        <Car brand="Renault"/>
+        <Car brand="Citroën"/>
+      </FXCollections>
+    </items>
+  </ComboBox>
+  </children>
+</AnchorPane>
